@@ -20,3 +20,17 @@
 - entrainer des modeles qui minimise la perte absolue.
 - les comparer avec des modeles qui minimise la perte quadratique.
 ![[Pasted image 20261107154203.png]]
+
+---
+
+## Experiments
+
+1. une regression lineaire entraine sur p0q2 : mae = 0.91
+2. une regression lineaire sur les 4 vars : mae = 0.88
+3. un quantile regressor avec quantile 0.5 : mae = 0.86
+4. decision tree regressor : mae = 0.81
+5. gradient boosting : mae = 0.81
+6. Random Forest, perte absolue : 0,8204
+
+
+[voir ce lien pour les methodes de raisonnement statistiques](https://chatgpt.com/s/t_6af0553da3dc8191a9322deddd727bf0)
